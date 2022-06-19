@@ -1,2 +1,2 @@
-# JS-Reviews-Slider
+# Color-Flipper
 Created with CodeSandbox

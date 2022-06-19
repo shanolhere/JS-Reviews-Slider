@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+.reviewContainer {
+  width: 600px;
+  background-color: rgb(173, 205, 238);
+  color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reviewItem {
+  margin: 2rem 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(39, 137, 230);
+  color: white;
+  padding: 16px 20px;
+}
+
+p {
+  padding-top: 10px;
+}
+img {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.reviewItems {
+  display: none;
+}
+button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(39, 137, 230);
+  color: white;
+  padding: 16px 20px;
+  cursor: pointer;
+}
